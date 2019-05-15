@@ -7,6 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Foundation/NSObjCRuntime.h>
+#import <Foundation/Foundation.h>
 
 @interface ViewController : UIViewController
 

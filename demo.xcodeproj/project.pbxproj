@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EDDE6FCF2288FF2E006427C0 /* NSObject+LBKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = EDDE6FCE2288FF2E006427C0 /* NSObject+LBKVO.m */; };
+		EDDE6FD5228BD553006427C0 /* dddd.m in Sources */ = {isa = PBXBuildFile; fileRef = EDDE6FD4228BD553006427C0 /* dddd.m */; };
 		EDEABF3722826641005444CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDEABF3622826641005444CB /* AppDelegate.m */; };
 		EDEABF3A22826641005444CB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDEABF3922826641005444CB /* ViewController.m */; };
 		EDEABF3D22826641005444CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDEABF3B22826641005444CB /* Main.storyboard */; };
@@ -35,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EDDE6FCD2288FF2E006427C0 /* NSObject+LBKVO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+LBKVO.h"; sourceTree = "<group>"; };
+		EDDE6FCE2288FF2E006427C0 /* NSObject+LBKVO.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LBKVO.m"; sourceTree = "<group>"; };
+		EDDE6FD3228BD553006427C0 /* dddd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dddd.h; sourceTree = "<group>"; };
+		EDDE6FD4228BD553006427C0 /* dddd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dddd.m; sourceTree = "<group>"; };
 		EDEABF3222826641005444CB /* demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDEABF3522826641005444CB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EDEABF3622826641005444CB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -78,6 +84,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EDDE6FCC2288FEFA006427C0 /* CustomKVO */ = {
+			isa = PBXGroup;
+			children = (
+				EDDE6FCD2288FF2E006427C0 /* NSObject+LBKVO.h */,
+				EDDE6FCE2288FF2E006427C0 /* NSObject+LBKVO.m */,
+			);
+			path = CustomKVO;
+			sourceTree = "<group>";
+		};
 		EDEABF2922826641005444CB = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +116,7 @@
 		EDEABF3422826641005444CB /* demo */ = {
 			isa = PBXGroup;
 			children = (
+				EDDE6FCC2288FEFA006427C0 /* CustomKVO */,
 				EDEABF3522826641005444CB /* AppDelegate.h */,
 				EDEABF3622826641005444CB /* AppDelegate.m */,
 				EDEABF3822826641005444CB /* ViewController.h */,
@@ -110,6 +126,8 @@
 				EDEABF4022826642005444CB /* LaunchScreen.storyboard */,
 				EDEABF4322826642005444CB /* Info.plist */,
 				EDEABF4422826642005444CB /* main.m */,
+				EDDE6FD3228BD553006427C0 /* dddd.h */,
+				EDDE6FD4228BD553006427C0 /* dddd.m */,
 			);
 			path = demo;
 			sourceTree = "<group>";
@@ -262,6 +280,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDDE6FD5228BD553006427C0 /* dddd.m in Sources */,
+				EDDE6FCF2288FF2E006427C0 /* NSObject+LBKVO.m in Sources */,
 				EDEABF3A22826641005444CB /* ViewController.m in Sources */,
 				EDEABF4522826642005444CB /* main.m in Sources */,
 				EDEABF3722826641005444CB /* AppDelegate.m in Sources */,
